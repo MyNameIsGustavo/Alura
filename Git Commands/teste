@@ -1,1 +1,47 @@
+Comitar arquvivo;
+git commit [arquivo] -m "mensagem de commit"
+git commit . (git commit e um ponto) -- comitta varios arquivos
+
+-- Empurrar o arquivo para a o GitHub na nuvem;
+git push origin main
+
+-- Exibir todas as alterações do projeto;
+git log --oneline 
+	parametros git log:
+		-p  - exibe mais informações do commit;
+		--author="user_name" - exibe o autor do commit;
+	
+-- Voltar o arquivo para uma determinada versão;
+git restore --source [SHA_Arquivo];
+
+--Clonar um repositorio do GitHub;
+git clone [link_projeto_github.git]
+git clone <pasta desejada> <nome_projeto>
+
+-- Exibe todas as alterações, mostra as alterações;
+Git status [arquivo]
+
+-- Faz a atualização do arquivo, é semelhante ao clone, mas o clone é feito uma vez só;
+git pull [link_projeto_github.git]
+
+-- Para adicionar as mudanças ao meu repositorio local
+git add . (git add e um ponto)
+
+git add nome-do-arquivo-alterado.
+
+
+-- Criando uma nova branch:
+git checkout -b [nome da branch]
+
+--voltando para branch main
+git switch main
+
+-- enviar para branch no github
+git push origin [nome da branch]
+
+-- visualizar todas as branches:
+git branch
+
+-- juntos as branches:
+git merge [nome da branch q vai juntar com o main]
 
